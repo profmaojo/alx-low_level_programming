@@ -1,10 +1,8 @@
-#include <stdio.h>
-
+#include<stdio.h>
 /**
- *main - print lowercase alpha a-z but remove 'q' and 'e'
- *Return: Always 0 (Success)
- */
-
+*main- print lowercase alpha a-z but remove 'q' and 'e'
+*Return:Always 0 (Success)
+*/
 int main(void)
 {
 	char alpha = 'a';
@@ -19,5 +17,5 @@ int main(void)
 	}
 	putchar('\n');
 
-	return (0);
+	return (0)
 }
