@@ -16,7 +16,7 @@ int main(void)
 	{
 		if (e != i && e < i)
 		{
-			ptchar(e);
+			putchar(e);
 			putchar(i);
 			if (i == 57 && e == 56)
 			{
