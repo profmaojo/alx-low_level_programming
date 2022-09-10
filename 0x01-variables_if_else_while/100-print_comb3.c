@@ -9,24 +9,23 @@ int main(void)
 {
 	int i, e;
 
-	i = 48;
-	e = 48;
-
-	while (i < 58)
+	for (i = 0; i <= 9; i++)
 	{
-		if (e != i && e < i)
+		for (e = (i + 1); e <= 9; e++)
 		{
-			putchar(e);
 			putchar(i);
-			if (i == 57 && e == 56)
+			putchar(e);
+
+			if (i != 8 || e != 9)
 			{
-				break;
+				putchar(',');
+				putchar(' ');
 			}
-			putchar(',');
-			putchar(' ');
 		}
-		e++;
 	}
 	putchar('\n');
+
 	return (0);
+}
+
 }
