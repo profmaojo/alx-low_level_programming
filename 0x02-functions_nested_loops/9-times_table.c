@@ -11,12 +11,12 @@ void times_table(void)
 	int y; /* count */
 	int z; /* computed value */
 
-	whiile (x < 10)
+	while (x < 10)
 	{
 		y = 0;
 		while (y < 10)
 		{
-			z = x*y;
+			z = x * y;
 
 			if (z > 9)
 			{
