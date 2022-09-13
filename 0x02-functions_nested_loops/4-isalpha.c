@@ -8,5 +8,5 @@
 
 int _isalpha(int c)
 {
-	return ((c >= 97 && c <= 123) || (c >= 65 && c = 91));
+	return ((c >= a && c <= z) || (c >= A && c = Z));
 }
