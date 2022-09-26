@@ -18,3 +18,4 @@ char *_memset(char *s, char b, unsighned int n)
 	}
 
 	return (s);
+}
