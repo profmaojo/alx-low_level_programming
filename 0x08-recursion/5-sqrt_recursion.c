@@ -3,7 +3,7 @@
 /**
  * sqrt_check - verify if s is the square root of c
  * @s: parameter
- * C:number to find sqrt of 
+ * @c: number to find sqrt of
  * Return: -1 or sqrt of c
  */
 
