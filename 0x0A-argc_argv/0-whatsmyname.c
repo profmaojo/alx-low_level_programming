@@ -5,10 +5,11 @@
  * @argc: number of arguments passed to the function
  * @argv: argument vector of pointers to strings
  *
- * Return: always 0
+ * Return: 0 for success
  */
-int main(int argc __attribute__((unused)), char *argv[])
+int main(int argc, char *argv[])
 {
-	printf("%\n", argv[0]);
+	argc = argc;
+	printf("%s\n", *argv);
 	return (0);
 }
