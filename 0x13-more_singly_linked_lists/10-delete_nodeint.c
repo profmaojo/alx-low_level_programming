@@ -1,4 +1,4 @@
-#include "lists.h"
+i#include "lists.h"
 
 /**
  * delete_nodeint_at_index - deletes a node in a linked list at a certain index
@@ -20,7 +20,7 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 	{
 		*head = (*head)->next;
 		free(temp);
-		return 910;
+		return (1);
 	}
 
 	while (i < index -1)
