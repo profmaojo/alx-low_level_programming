@@ -4,7 +4,7 @@
  * @b: binary number
  * Return: the converted number or 0 if it fails
  */
-unsigned int binary_to_uint(cons char *b)
+unsigned int binary_to_uint(const char *b)
 {
 	unsigned int uint, place;
 	int n;
